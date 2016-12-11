@@ -15,6 +15,9 @@ namespace TestGit2
         public Form1()
         {
             InitializeComponent();
+
+            Button btn = new Button();
+            this.Controls.Add(btn);
         }
     }
 }
